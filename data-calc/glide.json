@@ -1,24 +1,27 @@
 [
   {
     "kind": "column",
-    "name": "Substring",
-    "description": "Extracts a substring out of a string. Both start and end indexes are optional. The end index is exclusive.",
-    "author": "Mark Probst <mark@glideapps.com>",
+    "name": "Time Calc",
+    "description": "Retorna a diferença en períodos de tempo.",
+    "author": "Clebson Rosendo <klebson1999@gmail.com>",
     "params": [
       {
-        "name": "string",
-        "displayName": "String",
-        "type": "string"
+        "name": "data_inicial",
+        "displayName": "Data Inicial",
+        "description": "Insira o período de tempo inicial. Se estiver vazio será usada o tempo atual",
+        "type": "date"
       },
       {
-        "name": "start",
-        "displayName": "Start index",
-        "type": "number"
+        "name": "data_final",
+        "displayName": "Data Final",
+        "description": "Insira o período de tempo final.",
+        "type": "date"
       },
       {
-        "name": "end",
-        "displayName": "End index",
-        "type": "number"
+        "name": "formatacao_retorno",
+        "displayName": "Formato",
+        "description": "Insira como será retornado os valores",
+        "type": "text"
       }
     ],
     "result": {
