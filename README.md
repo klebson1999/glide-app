@@ -1,5 +1,7 @@
 ### glide-app-scripts
 
+![](https://aws1.discourse-cdn.com/business7/uploads/glideapps/original/3X/3/8/388d6886bfa5c72fe5a8d43db570b66f10bad202.png)
+
 #### O objetivo desse repositório é adicionar pequenas funções que serão implementadas em [glide apps](https://www.glideapps.com/).
 
 Acesse a [documentação oficial](https://docs.glideapps.com/all/topics/computed-columns/primary/experimental-code-column) fornecida pela Glide para implementar nos seus apps. Mas basicamente cada pasta contém **cinco** arquivos.
