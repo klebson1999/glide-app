@@ -2,26 +2,26 @@
   {
     "kind": "column",
     "name": "Time Calc",
-    "description": "Retorna a diferença en períodos de tempo.",
+    "description": "Retorna a diferença em períodos de tempo.",
     "author": "Clebson Rosendo <klebson1999@gmail.com>",
     "params": [
       {
         "name": "data_inicial",
         "displayName": "Data Inicial",
         "description": "Insira o período de tempo inicial. Se estiver vazio será usada o tempo atual",
-        "type": "date"
+        "type": "string"
       },
       {
         "name": "data_final",
         "displayName": "Data Final",
         "description": "Insira o período de tempo final.",
-        "type": "date"
+        "type": "string"
       },
       {
         "name": "formatacao_retorno",
         "displayName": "Formato",
         "description": "Insira como será retornado os valores",
-        "type": "text"
+        "type": "string"
       }
     ],
     "result": {
