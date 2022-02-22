@@ -12,5 +12,5 @@ window.function = function (inicial, final, retorno) {
 
   
 
-  return console.log(resultado_final);
+  console.log(resultado_final);
 }
