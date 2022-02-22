@@ -17,7 +17,7 @@
       },
       {
         "name": "retorno",
-        "displayName": "Formato",
+        "displayName": "Formatação",
         "type": "string"
       }
     ],
