@@ -8,12 +8,12 @@
       {
         "name": "inicial",
         "displayName": "Data Inicial",
-        "type": "string"
+        "type": "date-time"
       },
       {
         "name": "final",
         "displayName": "Data Final",
-        "type": "string"
+        "type": "date-time"
       },
       {
         "name": "retorno",
