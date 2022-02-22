@@ -6,17 +6,17 @@
     "author": "Clebson Rosendo <klebson1999@gmail.com>",
     "params": [
       {
-        "name": "data_inicial",
+        "name": "inicial",
         "displayName": "Data Inicial",
         "type": "string"
       },
       {
-        "name": "data_final",
+        "name": "final",
         "displayName": "Data Final",
         "type": "string"
       },
       {
-        "name": "formatacao_retorno",
+        "name": "retorno",
         "displayName": "Formato",
         "type": "string"
       }
