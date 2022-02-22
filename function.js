@@ -6,7 +6,7 @@ window.function = function (inicial, final, retorno) {
 // Este é um bom lugar para extrai os `.value`s e atribui os valores padrão.
 
   inicial = inicial.value ?? "";
-  final = final.value ?? 0;
+  final = final.value ?? "";
   retorno = retorno.value ?? "";
   resultado_final = "";
   resultado_final = final.subtract(inicial);
