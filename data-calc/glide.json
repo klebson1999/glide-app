@@ -8,19 +8,16 @@
       {
         "name": "data_inicial",
         "displayName": "Data Inicial",
-        "description": "Insira o período de tempo inicial. Se estiver vazio será usada o tempo atual",
         "type": "string"
       },
       {
         "name": "data_final",
         "displayName": "Data Final",
-        "description": "Insira o período de tempo final.",
         "type": "string"
       },
       {
         "name": "formatacao_retorno",
         "displayName": "Formato",
-        "description": "Insira como será retornado os valores",
         "type": "string"
       }
     ],
