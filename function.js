@@ -8,9 +8,9 @@ window.function = function (inicial, final, retorno) {
   data = new Date;
   final = final.value ?? "";
   retorno = retorno.value ?? "";
-  resultado_final = data.subtract(10, 'days');
+  data.subtract(10, 'days');
 
   
 
-  console.log(resultado_final);
+  console.log(data);
 }
