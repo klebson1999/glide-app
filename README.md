@@ -17,3 +17,10 @@ Acesse a [documentação oficial](https://docs.glideapps.com/all/topics/computed
 > *Construímos esse recurso para saber quais colunas computadas devemos adicionar ao Glide. A coluna Código Experimental pode mudar drasticamente, ou podemos até removê-la. Nós encorajamos você a usá-la, mas ainda não recomendamos construir funcionalidades críticas com ela.*
 
 **Sinta-se a vontade para sugerir alterações ou melhoria nos códigos.**
+
+## Relalizando operações com datas
+
+Esse é apenas um pequeno script para realizar cálculos básicos de subtração com périodos de tempo e retornar o valor em segundos, minutos, horas, dias, meses e anos.
+
+É utilizada a bibioteca _[Moments](https://momentjs.com/)_ para transformar os valores em datas e realizar os cálculos. 
+
