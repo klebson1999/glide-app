@@ -21,5 +21,3 @@ Acesse a [documentação oficial](https://docs.glideapps.com/all/topics/computed
 ## Relalizando operações com datas
 
 Esse é apenas um pequeno script para realizar cálculos básicos de subtração entre datas e retornar o valor em meses.
-
-
