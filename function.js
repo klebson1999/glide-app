@@ -2,18 +2,18 @@
 
 
 window.function = function (inicial, final) {
-// Para cada parâmetro, contém seu `.value` ou seu valor no tipo que você declarou, ou é `indefinido`.
-// Este é um bom lugar para extrai os `.value`s e atribui os valores padrão.
 
+// Extraindo valores enviado.
 var finicial = inicial.value ?? ""
 var ffinal = final.value ?? ""
+// Formatando valores como data.
+const vinicial = new Date(finicial); // data inicial
+const vfuturo = new Date(ffinal); // data final
+const diff = Math.abs(vfuturo.getTime() - vinicial.getTime() ); // Subtrai uma data pela outra
+// Divide o total pelo total de milisegundos correspondentes a 1 dia e depois por meses
+const mounth = Math.ceil(diff / (1000 * 60 * 60 * 24 * 30)); 
 
-const vinicial = new Date(finicial); // Data de hoje
-const vfuture = new Date(ffinal); // Outra data no passado
-const diff = Math.abs(vfuture.getTime() - vinicial.getTime() ); // Subtrai uma data pela outra
-const mounth = Math.ceil(diff / (1000 * 60 * 60 * 24 * 30)); // Divide o total pelo total de milisegundos correspondentes a 1 dia. (1000 milisegundos = 1 segundo).
-
-// Mostra a diferença em dias
+// Retorna a quantidade de meses
 return(mounth);
 
 }
