@@ -20,7 +20,6 @@ Acesse a [documentação oficial](https://docs.glideapps.com/all/topics/computed
 
 ## Relalizando operações com datas
 
-Esse é apenas um pequeno script para realizar cálculos básicos de subtração com périodos de tempo e retornar o valor em segundos, minutos, horas, dias, meses e anos.
+Esse é apenas um pequeno script para realizar cálculos básicos de subtração entre datas e retornar o valor em meses.
 
-É utilizada a bibioteca _[Moments](https://momentjs.com/)_ para transformar os valores em datas e realizar os cálculos. 
 
